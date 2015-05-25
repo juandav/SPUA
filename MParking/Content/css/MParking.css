@@ -1,0 +1,8 @@
+﻿body {
+}
+.extnet {
+    background: url(../../../../Content/images/uafondo.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+}
