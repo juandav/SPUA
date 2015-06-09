@@ -51,10 +51,22 @@ namespace ParkingEscritorio
             MGTARJETA.AllowUserToAddRows = false;
         }
 
+        private void conectarTerminal(object sender, EventArgs e) {
+            MessageBox.Show("Prueba en conexión", "Prueba");
+        }
+
         //REGISTRAR HUELLA
         private void MBHUELLA_Click(object sender, EventArgs e) {
-            MessageBox.Show(usuaTarjeta + ":" + tarjeta, "Exito");
 
+            if (conectar())
+            {
+                this.lectorBiometricoObject.OnVerify += new _IZKEMEvents_OnVerifyEventHandler(validarTarjeta);
+                this.lectorBiometricoObject.OnHIDNum += new _IZKEMEvents_OnHIDNumEventHandler(consultarNumeroTarjeta);
+            }
+            else
+            {
+                MessageBox.Show("No se ha podido establecer conexion.", "Error");
+            }
         }
         
         //REGISTRAR TARJETA
@@ -76,13 +88,11 @@ namespace ParkingEscritorio
         public void validarTarjeta(int usuarioId)
         {
             usuaTarjeta = usuarioId;
-            //MessageBox.Show("entro en validar. usuario:" + usuarioId, "Exito");
         }
 
         public void consultarNumeroTarjeta(int numeroTarjeta)
         {
             tarjeta = numeroTarjeta;
-            //MessageBox.Show("entro en tarjeta. Tarjeta:" + numeroTarjeta, "Exito");
         }
 
 
