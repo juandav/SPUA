@@ -34,7 +34,7 @@ namespace MParking.Conections
                 conexionOracleObject.Open();
                 adaptadorDeDatosObject.Fill(conjuntoDeDatosObject);
             }
-            catch (Exception)
+            catch (Exception e)
             {
                 return null;
             }

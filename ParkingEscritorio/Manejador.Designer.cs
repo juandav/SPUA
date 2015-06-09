@@ -40,6 +40,7 @@
             this.MinimizeBox = false;
             this.Name = "Manejador";
             this.ShowIcon = false;
+            this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Manejador";
             this.ResumeLayout(false);
 

@@ -19,6 +19,7 @@
     <IISExpressAnonymousAuthentication />
     <IISExpressWindowsAuthentication />
     <IISExpressUseClassicPipelineMode />
+    <UseGlobalApplicationHostFile />
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
     <DebugSymbols>true</DebugSymbols>
@@ -93,6 +94,8 @@
     <Compile Include="Conections\ConexionOracle.cs" />
     <Compile Include="Controller\Parking\MBiometricoCOD.cs" />
     <Compile Include="Controller\Parking\MRFIDCOD.cs" />
+    <Compile Include="Model\Parking\EtiquetaOAD.cs" />
+    <Compile Include="Model\Parking\HuellaOAD.cs" />
     <Compile Include="Model\Parking\UsuarioOAD.cs" />
     <Compile Include="Model\Parking\VehiculoOAD.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />

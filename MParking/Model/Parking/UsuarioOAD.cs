@@ -23,12 +23,13 @@ namespace MParking.Model.Parking
         public DataTable consultarUsuarios() {
             string sql = "SELECT"
                         + "     U.PEGE_ID,"
-                        + "     U.USUA_DOCUMENTO,"
-                        + "     U.USUA_CODIGOUDLA,"
-                        + "     U.USUA_NOMBRE,"
-                        + "     U.USUA_PROGRAMA"
+                        + "     U.USUA_CODIGOUDLA AS CODIGOUDLA,"
+                        + "     U.USUA_DOCUMENTO  AS DOCUMENTO,"
+                        + "     U.USUA_NOMBRE     AS PERSONA"
                         + " FROM"
-                        + "     PARKING.USUARIO U";
+                        + "     PARKING.USUARIO U"
+                        + " WHERE"
+                        + "     U.USUA_TIPO IN ('DOCENTE','FUNCIONARIO')";
             return conObject.consultarDatos(sql);
         }
 
