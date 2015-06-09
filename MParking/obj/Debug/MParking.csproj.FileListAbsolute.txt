@@ -10,3 +10,8 @@ C:\Users\ingen_000\Desktop\Proyecto Grado\MParking\MParking\bin\MParking.pdb
 C:\Users\ingen_000\Desktop\Proyecto Grado\MParking\MParking\obj\Debug\MParking.csprojResolveAssemblyReference.cache
 C:\Users\ingen_000\Desktop\Proyecto Grado\MParking\MParking\obj\Debug\MParking.dll
 C:\Users\ingen_000\Desktop\Proyecto Grado\MParking\MParking\obj\Debug\MParking.pdb
+D:\SPUA\MParking\bin\MParking.dll.config
+D:\SPUA\MParking\bin\MParking.dll
+D:\SPUA\MParking\bin\MParking.pdb
+D:\SPUA\MParking\obj\Debug\MParking.dll
+D:\SPUA\MParking\obj\Debug\MParking.pdb

@@ -66,10 +66,34 @@
     <Compile Include="Escritorio.Designer.cs">
       <DependentUpon>Escritorio.cs</DependentUpon>
     </Compile>
+    <Compile Include="Logon.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Logon.Designer.cs">
+      <DependentUpon>Logon.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Manejador.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Manejador.Designer.cs">
+      <DependentUpon>Manejador.cs</DependentUpon>
+    </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Registro.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Registro.Designer.cs">
+      <DependentUpon>Registro.cs</DependentUpon>
+    </Compile>
     <EmbeddedResource Include="Escritorio.resx">
       <DependentUpon>Escritorio.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Logon.resx">
+      <DependentUpon>Logon.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Manejador.resx">
+      <DependentUpon>Manejador.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Properties\Resources.resx">
       <Generator>ResXFileCodeGenerator</Generator>

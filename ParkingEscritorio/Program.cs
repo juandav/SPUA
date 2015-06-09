@@ -16,7 +16,7 @@ namespace ParkingEscritorio
         {
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
-            Application.Run(new Escritorio());
+            Application.Run(new Manejador());
         }
     }
 }

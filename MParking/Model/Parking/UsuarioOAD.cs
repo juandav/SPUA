@@ -1,7 +1,4 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Data;
+﻿using System.Data;
 using MParking.Conections;
 
 namespace MParking.Model.Parking
@@ -10,6 +7,18 @@ namespace MParking.Model.Parking
     {
 
         private ConexionOracle conObject = new ConexionOracle();
+
+        public DataTable consultarUsuaroParaLogon(string usuario, string pass) {
+             string sql = "SELECT"
+                        + "     U.*"
+                        + " FROM"
+                        + "     PARKING.USUARIO U"
+                        + " WHERE"
+                        + "     USUA_USUARIO = '" + usuario + "'"
+                        + " AND"
+                        + "     USUA_PASS='" + pass + "'";
+            return conObject.consultarDatos(sql);
+        }
 
         public DataTable consultarUsuarios() {
             string sql = "SELECT"
