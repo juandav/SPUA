@@ -39,6 +39,13 @@
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <ItemGroup>
+    <Reference Include="AxInterop.zkemkeeper">
+      <HintPath>..\ParkingEscritorio\bin\AxInterop.zkemkeeper.dll</HintPath>
+    </Reference>
+    <Reference Include="Biometrico, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>bin\Biometrico.dll</HintPath>
+    </Reference>
     <Reference Include="Ext.Net, Version=1.0.3960.36328, Culture=neutral, PublicKeyToken=2e12ce3d0176cd87, processorArchitecture=MSIL">
       <SpecificVersion>False</SpecificVersion>
       <HintPath>bin\Ext.Net.dll</HintPath>
@@ -46,6 +53,10 @@
     <Reference Include="Ext.Net.Utilities, Version=1.0.0.36286, Culture=neutral, PublicKeyToken=2c34ac34702a3c23, processorArchitecture=MSIL">
       <SpecificVersion>False</SpecificVersion>
       <HintPath>bin\Ext.Net.Utilities.dll</HintPath>
+    </Reference>
+    <Reference Include="Interop.zkemkeeper">
+      <HintPath>..\ParkingEscritorio\bin\Interop.zkemkeeper.dll</HintPath>
+      <EmbedInteropTypes>True</EmbedInteropTypes>
     </Reference>
     <Reference Include="itextsharp, Version=5.0.2.0, Culture=neutral, PublicKeyToken=8354ae6d2174ddca, processorArchitecture=MSIL">
       <SpecificVersion>False</SpecificVersion>
@@ -74,6 +85,7 @@
     <Reference Include="System.Core" />
     <Reference Include="System.Data.DataSetExtensions" />
     <Reference Include="System.Web.Extensions" />
+    <Reference Include="System.Windows.Forms" />
     <Reference Include="System.Xml.Linq" />
     <Reference Include="System.Drawing" />
     <Reference Include="System.Web" />
@@ -87,6 +99,7 @@
     <Content Include="Content\images\uafondo.png" />
     <Content Include="Content\js\MParking.js" />
     <Content Include="Global.asax" />
+    <Content Include="View\Private\Parking\index.html" />
     <Content Include="View\Private\Parking\MBiometrico\MBiometrico.aspx" />
     <Content Include="View\Private\Parking\MParking.aspx" />
     <Content Include="View\Private\Parking\MRFID\MRFID.aspx" />
@@ -95,6 +108,7 @@
     <Compile Include="Conections\ConexionOracle.cs" />
     <Compile Include="Controller\Parking\MBiometricoCOD.cs" />
     <Compile Include="Controller\Parking\MRFIDCOD.cs" />
+    <Compile Include="Controller\Parqueadero\ParqueaderoCOD.cs" />
     <Compile Include="Global.asax.cs">
       <DependentUpon>Global.asax</DependentUpon>
     </Compile>
@@ -131,6 +145,48 @@
     <Compile Include="View\Private\Parking\MRFID\MRFID.aspx.designer.cs">
       <DependentUpon>MRFID.aspx</DependentUpon>
     </Compile>
+    <Compile Include="View\Private\Parqueadero\Etiqueta.aspx.cs">
+      <DependentUpon>Etiqueta.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="View\Private\Parqueadero\Etiqueta.aspx.designer.cs">
+      <DependentUpon>Etiqueta.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="View\Private\Parqueadero\Parqueadero.aspx.cs">
+      <DependentUpon>Parqueadero.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="View\Private\Parqueadero\Parqueadero.aspx.designer.cs">
+      <DependentUpon>Parqueadero.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="View\Private\Parqueadero\Permiso.aspx.cs">
+      <DependentUpon>Permiso.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="View\Private\Parqueadero\Permiso.aspx.designer.cs">
+      <DependentUpon>Permiso.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="View\Private\Parqueadero\Terminal.aspx.cs">
+      <DependentUpon>Terminal.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="View\Private\Parqueadero\Terminal.aspx.designer.cs">
+      <DependentUpon>Terminal.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="View\Private\Parqueadero\Validacion.aspx.cs">
+      <DependentUpon>Validacion.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="View\Private\Parqueadero\Validacion.aspx.designer.cs">
+      <DependentUpon>Validacion.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="View\Private\Parqueadero\Vehiculo.aspx.cs">
+      <DependentUpon>Vehiculo.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="View\Private\Parqueadero\Vehiculo.aspx.designer.cs">
+      <DependentUpon>Vehiculo.aspx</DependentUpon>
+    </Compile>
   </ItemGroup>
   <ItemGroup>
     <Folder Include="Model\Academico\" />
@@ -139,6 +195,12 @@
     <Folder Include="Model\General\" />
   </ItemGroup>
   <ItemGroup>
+    <Content Include="View\Private\Parqueadero\Etiqueta.aspx" />
+    <Content Include="View\Private\Parqueadero\Parqueadero.aspx" />
+    <Content Include="View\Private\Parqueadero\Permiso.aspx" />
+    <Content Include="View\Private\Parqueadero\Terminal.aspx" />
+    <Content Include="View\Private\Parqueadero\Validacion.aspx" />
+    <Content Include="View\Private\Parqueadero\Vehiculo.aspx" />
     <Content Include="web.config" />
     <None Include="web.Debug.config">
       <DependentUpon>web.config</DependentUpon>

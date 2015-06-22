@@ -1,0 +1,6 @@
+D:\SPUA\Quantux.JSON\bin\Debug\Quantux.JSON.dll
+D:\SPUA\Quantux.JSON\bin\Debug\Quantux.JSON.pdb
+D:\SPUA\Quantux.JSON\bin\Debug\Quantux.JSON.tlb
+D:\SPUA\Quantux.JSON\obj\Debug\Quantux.JSON.csprojResolveAssemblyReference.cache
+D:\SPUA\Quantux.JSON\obj\Debug\Quantux.JSON.dll
+D:\SPUA\Quantux.JSON\obj\Debug\Quantux.JSON.pdb

@@ -23,7 +23,18 @@ namespace MParking.Model.Parking
             return connObject.consultarDatos(sql);
         }
 
-        public DataTable consultarTerminalesBiometrico()
+        /// <summary>
+        ///    
+        /// </summary>
+        /// <param name="tipo">
+        ///   1. Biometrico
+        ///   2. RFID
+        ///   3. Camara
+        /// </param>
+        /// <returns>
+        ///   Lista de terminales filtradas por tipo
+        /// </returns>
+        public DataTable ConsultarTerminalesPorTipo(string tipo)
         {
             string sql = "SELECT"
                         + "     T.TERM_ID,"
@@ -31,7 +42,7 @@ namespace MParking.Model.Parking
                         + "     T.TERM_DESCRIPCION"
                         + " FROM "
                         + "     " + Global.SCHEMA_PARKING + ".TERMINAL T "
-                        + " WHERE T.ETIQ_ESTADO = 'ACTIVO' AND T.TERM_TIPO='BIOMETRICO'";
+                        + " WHERE T.ETIQ_ESTADO = 'ACTIVO' AND T.TERM_TIPO='" + tipo + "'";
             return connObject.consultarDatos(sql);
         }
         /// <summary>

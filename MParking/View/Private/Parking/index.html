@@ -1,0 +1,22 @@
+﻿<!DOCTYPE>
+<html>
+<head>
+    <title>ActiveX</title>
+</head>
+<body>
+    <object id="ACtive" classid="clsid:727a07f2-1698-4978-ae0b-020f16c75e14"></object>  
+    <script type="text/javascript">
+            try {
+                var obj = document.ACtive;
+                if (obj) {
+                    alert(obj.DecirHola());
+                } else {
+                    alert("No se crea objetos!");
+                }
+            } catch (ex) {
+                alert("Ocurre algún error, mensaje de error es: " + ex.Description);
+            }
+
+    </script>
+</body>
+</html>

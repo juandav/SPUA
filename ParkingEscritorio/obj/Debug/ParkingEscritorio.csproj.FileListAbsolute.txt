@@ -16,23 +16,3 @@ C:\Users\ingen_000\Desktop\Proyecto Grado\MParking\ParkingEscritorio\obj\Debug\P
 C:\Users\ingen_000\Desktop\Proyecto Grado\MParking\ParkingEscritorio\obj\Debug\ParkingEscritorio.exe
 C:\Users\ingen_000\Desktop\Proyecto Grado\MParking\ParkingEscritorio\obj\Debug\ParkingEscritorio.pdb
 C:\Users\ingen_000\Desktop\Proyecto Grado\MParking\ParkingEscritorio\bin\Debug\UHFReader28CSharp.dll
-D:\SPUA\ParkingEscritorio\bin\Debug\ParkingEscritorio.exe.config
-D:\SPUA\ParkingEscritorio\bin\Debug\ParkingEscritorio.exe
-D:\SPUA\ParkingEscritorio\bin\Debug\ParkingEscritorio.pdb
-D:\SPUA\ParkingEscritorio\bin\Debug\MetroFramework.Design.dll
-D:\SPUA\ParkingEscritorio\bin\Debug\MetroFramework.dll
-D:\SPUA\ParkingEscritorio\bin\Debug\MetroFramework.Fonts.dll
-D:\SPUA\ParkingEscritorio\bin\Debug\MParking.dll
-D:\SPUA\ParkingEscritorio\bin\Debug\UHFReader28CSharp.dll
-D:\SPUA\ParkingEscritorio\bin\Debug\Ext.Net.dll
-D:\SPUA\ParkingEscritorio\bin\Debug\Newtonsoft.Json.dll
-D:\SPUA\ParkingEscritorio\bin\Debug\Ext.Net.Utilities.dll
-D:\SPUA\ParkingEscritorio\bin\Debug\MParking.pdb
-D:\SPUA\ParkingEscritorio\obj\Debug\ParkingEscritorio.csprojResolveAssemblyReference.cache
-D:\SPUA\ParkingEscritorio\obj\Debug\ParkingEscritorio.Escritorio.resources
-D:\SPUA\ParkingEscritorio\obj\Debug\ParkingEscritorio.Logon.resources
-D:\SPUA\ParkingEscritorio\obj\Debug\ParkingEscritorio.Manejador.resources
-D:\SPUA\ParkingEscritorio\obj\Debug\ParkingEscritorio.Properties.Resources.resources
-D:\SPUA\ParkingEscritorio\obj\Debug\ParkingEscritorio.csproj.GenerateResource.Cache
-D:\SPUA\ParkingEscritorio\obj\Debug\ParkingEscritorio.exe
-D:\SPUA\ParkingEscritorio\obj\Debug\ParkingEscritorio.pdb

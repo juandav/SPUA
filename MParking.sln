@@ -1,11 +1,15 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 14
-VisualStudioVersion = 14.0.22310.1
+VisualStudioVersion = 14.0.22823.1
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MParking", "MParking\MParking.csproj", "{6027670D-9E13-44F1-9502-7E487A74F69B}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ParkingEscritorio", "ParkingEscritorio\ParkingEscritorio.csproj", "{07AAFBBD-11D0-4101-B1CA-C0B5210E12A4}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BioActiveX", "BioActiveX\BioActiveX.csproj", "{C6804E50-1EFC-4174-B8E5-9A7FDF88A43B}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Quantux.JSON", "Quantux.JSON\Quantux.JSON.csproj", "{A52A50E4-F131-48D2-AA34-2E13CCDA020F}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -21,6 +25,14 @@ Global
 		{07AAFBBD-11D0-4101-B1CA-C0B5210E12A4}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{07AAFBBD-11D0-4101-B1CA-C0B5210E12A4}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{07AAFBBD-11D0-4101-B1CA-C0B5210E12A4}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C6804E50-1EFC-4174-B8E5-9A7FDF88A43B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C6804E50-1EFC-4174-B8E5-9A7FDF88A43B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C6804E50-1EFC-4174-B8E5-9A7FDF88A43B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C6804E50-1EFC-4174-B8E5-9A7FDF88A43B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A52A50E4-F131-48D2-AA34-2E13CCDA020F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A52A50E4-F131-48D2-AA34-2E13CCDA020F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A52A50E4-F131-48D2-AA34-2E13CCDA020F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A52A50E4-F131-48D2-AA34-2E13CCDA020F}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

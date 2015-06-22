@@ -1,4 +1,4 @@
-﻿<%@ Page Language="C#" AutoEventWireup="true" CodeBehind="MParking.aspx.cs" Inherits="MParking.View.Private.Parking.MParking" %>
+﻿<%@ Page Language="C#" Async="true" AutoEventWireup="true" CodeBehind="MParking.aspx.cs" Inherits="MParking.View.Private.Parking.MParking" %>
 
 <%@ Register Assembly="Ext.Net" Namespace="Ext.Net" TagPrefix="ext" %>
 
@@ -14,6 +14,13 @@
     <ext:ResourceManager runat="server" />
     <form id="FMPARKING" runat="server">
         <div>
+            <object id="BioActiveX" width="640px" height="480px" classid="clsid:FFB91231-64E9-460B-8C4B-C82F470C08ED" viewastext="">
+                <p>
+                    Este texto se mostrará si se abre la página con un browser no compatible o si el ActiveX no está instalado correctamente.            
+                </p>
+            </object>
+
+
             <ext:Viewport ID="VPGRTADMINISTRADOR" runat="server" Layout="border">
                 <Items>
                     <ext:MenuPanel ID="MPSERVICIO" CtCls="west-panel" Icon="BookOpen" runat="server" Width="160" Region="West" Split="true" Frame="true" Title="Servcios">
